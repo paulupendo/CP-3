@@ -1,4 +1,26 @@
-    <div class="container">    
+    <style>
+          /* Add animation to "page content" */
+        .animate-bottom {
+        position: relative;
+        -webkit-animation-name: animatebottom;
+        -webkit-animation-duration: 2s;
+        animation-name: animatebottom;
+        animation-duration: 2s
+        }
+
+        @-webkit-keyframes animatebottom {
+        from { bottom:-100px; opacity:0 } 
+        to { bottom:0px; opacity:1 }
+        }
+
+        @keyframes animatebottom { 
+        from{ bottom:-100px; opacity:0 } 
+        to{ bottom:0; opacity:1 }
+        }
+
+    </style>
+    
+    <div class="container animate-bottom">    
         <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">                    
             <div class="panel panel-info" >
                     <div class="panel-heading">
@@ -125,15 +147,9 @@
                                     </div>                                           
                                         
                                 </div>
-                                
-                                
-                                
                             </form>
                          </div>
-                    </div>
-
-               
-               
+                    </div>   
                 
          </div> 
     </div>

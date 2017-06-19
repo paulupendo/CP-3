@@ -4,7 +4,7 @@ import { Component } from '@angular/core'
     selector: "components",
     template: `
     <nav-bar></nav-bar>
-    <login-form></login-form>
+    <router-outlet></router-outlet>
     `
 })
 

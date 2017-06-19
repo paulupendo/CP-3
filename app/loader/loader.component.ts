@@ -20,8 +20,7 @@ import { Component } from '@angular/core'
     styles: [`
      #global{
         width:70px;
-        margin:auto;
-        margin-top:30px;
+        margin:30px auto;
         position:relative;
         cursor:pointer;
         height:60px;
@@ -52,8 +51,6 @@ import { Component } from '@angular/core'
         transition: all 0.3s ease;
       }
 
-
-      
       #top .plane{
         z-index:2000;
         animation : trans1 1.3s ease-in infinite  0s backwards;
@@ -68,9 +65,6 @@ import { Component } from '@angular/core'
         z-index:2000;
         animation : trans3 1.3s ease-out infinite  0.7s backwards;
       }
-
-
-
       #top{
         width:53px;
         height:20px;

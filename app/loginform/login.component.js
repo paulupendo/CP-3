@@ -16,8 +16,7 @@ var loginForm = (function () {
 }());
 loginForm = __decorate([
     core_1.Component({
-        selector: 'login-form',
-        templateUrl: 'app/loginform/login.component.html'
+        templateUrl: '/app/loginform/login.component.html'
     }),
     __metadata("design:paramtypes", [])
 ], loginForm);

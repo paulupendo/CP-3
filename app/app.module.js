@@ -11,10 +11,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 // Angular module import
 var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
+var router_1 = require("@angular/router");
 var nav_component_1 = require("./nav/nav.component");
 var components_1 = require("./components");
 var login_component_1 = require("./loginform/login.component");
 var loader_component_1 = require("./loader/loader.component");
+var routes_1 = require("./routes");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -22,7 +24,9 @@ var AppModule = (function () {
 }());
 AppModule = __decorate([
     core_1.NgModule({
-        imports: [platform_browser_1.BrowserModule],
+        imports: [platform_browser_1.BrowserModule,
+            router_1.RouterModule.forRoot(routes_1.appRoutes)
+        ],
         declarations: [
             components_1.siteComponents,
             nav_component_1.NavComponent,

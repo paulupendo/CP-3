@@ -17,7 +17,7 @@ var siteComponents = (function () {
 siteComponents = __decorate([
     core_1.Component({
         selector: "components",
-        template: "\n    <nav-bar></nav-bar>\n    <login-form></login-form>\n    "
+        template: "\n    <nav-bar></nav-bar>\n    <router-outlet></router-outlet>\n    "
     }),
     __metadata("design:paramtypes", [])
 ], siteComponents);
